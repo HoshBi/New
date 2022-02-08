@@ -31,7 +31,6 @@ async function get_urls() {
 }
 
 
-
 async function get_sitemap(urls) {
     console.log("sitemap {");
     return new Promise(async(pres, rej) => {
